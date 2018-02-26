@@ -21,7 +21,7 @@ expired.setDate(today.getDate() + 14);
 var date = expired.getDate();
 var day = expired.getDay();
 var month = expired.getMonth();
-var year = expired.getYear();
+var year = expired.getFullYear();
 
 var currentMonth = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "november", "december"];
 var currentDay = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
